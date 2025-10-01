@@ -6,6 +6,9 @@ public class Main {
         calc.add();
         calc.displayResult( "+");
 
+        calc.setNumbers(10,2);
+        calc.subtract();
+        calc.displayResult( "-");
     }
 
 }
