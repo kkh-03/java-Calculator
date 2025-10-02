@@ -6,9 +6,10 @@ public class Main {
         calc.add();
         calc.displayResult( "+");
 
-        calc.setNumbers(10,2);
-        calc.subtract();
-        calc.displayResult( "-");
+        AdvancedCalculator calc_mul = new AdvancedCalculator();
+        calc_mul.setNumbers(10,2);
+        calc_mul.multiply();
+        calc_mul.displayResult( "*");
     }
 
 }
