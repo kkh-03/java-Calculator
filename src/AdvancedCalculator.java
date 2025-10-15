@@ -10,9 +10,10 @@ public class AdvancedCalculator extends Calculator {
     }
 // 나눗셈 기능 개발 완료
     //https://github.com/kkh-03/java-Calculator/issues/3
+    @Override
     public int divide()
     {
-        result = num1/num2;
+        result = num1 / num2;
         return result;
     }
 }
