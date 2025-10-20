@@ -5,14 +5,25 @@ public class Main {
         calc.setNumbers(10,2);
         calc.add();
         calc.displayResult( "+");
+        calc.subtract();
+        calc.displayResult( "-");
 
         AdvancedCalculator calc_mul = new AdvancedCalculator();
         calc_mul.setNumbers(10,2);
         calc_mul.multiply();
         calc_mul.displayResult( "*");
+
+        AdvancedCalculator calc_div = new AdvancedCalculator();
+        calc_div.setNumbers(10,2);
+        calc_div.divide();
+        calc_div.displayResult( "/");
+
     }
         ScientificCalculator calc_fac = new ScientificCalculator();
-        calc_fac.setNumbers(10)
-        calc_fac.fatorial();
 
+    {
+        int n = 5;
+        long fac = calc_fac.factorial(n);
+        System.out.println(n + "! = " + fac);
+    }
 }
