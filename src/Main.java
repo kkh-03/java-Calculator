@@ -11,5 +11,8 @@ public class Main {
         calc_mul.multiply();
         calc_mul.displayResult( "*");
     }
+        ScientificCalculator calc_fac = new ScientificCalculator();
+        calc_fac.setNumbers(10)
+        calc_fac.fatorial();
 
 }
