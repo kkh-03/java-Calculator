@@ -1,3 +1,5 @@
+import java.math.BigInteger;
+
 public class Main {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
@@ -19,8 +21,8 @@ public class Main {
         calc_div.displayResult("/");
 
     ScientificCalculator calc_fac = new ScientificCalculator();
-    int n = 10;
-    long fac = calc_fac.factorial(n);
+    int n = 50;
+    BigInteger fac = calc_fac.factorial(n);
         System.out.println(n +"! = "+fac);
     }
 }
